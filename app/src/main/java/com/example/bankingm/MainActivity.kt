@@ -16,6 +16,7 @@ import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.ahmedapps.bankningappui.CurrenciesSection
 import com.example.bankingm.ui.theme.BankingMTheme
 import com.example.bankingm.ui.theme.widgets.BottomNavigationBar
 import com.example.bankingm.ui.theme.widgets.CardsGrid
@@ -65,7 +66,7 @@ fun HomeScreen() {
             CardsGrid()
             Spacer(modifier = Modifier.height(16.dp))
             FinanceGrid()
-//        CurrenciesSection()
+            CurrenciesSection()
         }
 
     }
